@@ -12,10 +12,29 @@
 
 
 ## Structural Breakdown Log
-### Michael Yugi
-- Established baseline tracking pathways across isolated project environments.
-- Mapped explicit verification logs recording system environmental state configurations.
-- Engineered uniform markdown scaffolding documents following coursework submission blueprints.
+### Michael Yugi Project Setup & Layout
+
+**Work completed / responsibilities:**
+1. Created the `CONTRIBUTING.md` file containing team contribution guidelines.
+2. Responsible for setting up the CommunityHub team repository.
+3. Added team members as GitHub collaborators.
+4. Configuring branch protection on the `main` branch.
+5. Setting up React with Vite inside the `frontend/` directory.
+6. Creating the layout components:
+   - `Header.jsx`
+   - `Footer.jsx`
+   - `Sidebar.jsx`
+7. Implementing the CommunityHub header with the site name, navigation links and login button.
+8. Implementing the footer with useful links and copyright information.
+9. Implementing the sidebar with About, Popular Posts and Tags/Categories sections.
+10. Completing Task 15.1 (Setup and JSX), Task 15.2 (Header/Footer) and Task 15.4 (Layout and children prop).
+11. Completing Daily Challenge Day 5 – PageLayout Component.
+
+**Branch:** `member1/layout-components`
+**Pull Requests Opened:** [Add PR number/link]
+**Pull Requests Reviewed:** [Add PR number/link]
+**Issues Closed:** [Add issue numbers]
+
 
 ### Florence Gitau
 -
