@@ -30,12 +30,6 @@
 10. Completing Task 15.1 (Setup and JSX), Task 15.2 (Header/Footer) and Task 15.4 (Layout and children prop).
 11. Completing Daily Challenge Day 5 – PageLayout Component.
 
-**Branch:** `member1/layout-components`
-**Pull Requests Opened:** [Add PR number/link]
-**Pull Requests Reviewed:** [Add PR number/link]
-**Issues Closed:** [Add issue numbers]
-
-
 ### Florence Gitau
 -
 - 
