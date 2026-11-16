@@ -8,7 +8,7 @@
 |  Michael Yugi | [@michael-yugi](https://github.com/michael-yugi) | Team Lead / Engineer | Setup configuration tracking, Multi-branch scoping, GFM layout compilation |
 | Florence Gitau | [@gitau0076-cpu](https://github.com/gitau0076-cpu) | Team Member / Engineer |  |
 | Hellen Wamucii Njue |  [@HellenWamuciiNjue](https://github.com/HellenWamuciiNjue) | Team member/ Engineer |  |
-| Nicodemus Muriuki | [@RealNicdee](https://github.com/RealNicdee) | Team Member / Engineer |  |
+| Stephen Githaiga Muriu | [@stephen-Dev254](stephengithaigamuriu@gmail.com) | Team Member / Engineer |  |
 
 
 ## Structural Breakdown Log
@@ -27,6 +27,6 @@
 -
 -
 
-### Stephen Murui
+### Stephen Muriu
 -
 -
