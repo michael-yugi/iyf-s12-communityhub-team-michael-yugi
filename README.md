@@ -2,7 +2,7 @@
 
 This repository is the shared project workspace for the CommunityHub React frontend built during Week 8 of the IYF program.
 
-This version of the README is intended as the current team working guide for a 4-member team. The course guidelines mention teams of 2–3 people, but this team has confirmed a 4-person configuration for this project. If your instructor requires a different team size, this structure should be adjusted before submission.
+This version of the README is intended as the current team working guide for the confirmed 4-member team.
 
 ## Week 8 Goal
 
@@ -22,7 +22,8 @@ The project must include:
 
 ## Team Allocation
 
-### Member 1 — Team Lead, Project Setup & Layout
+### Member 1 — Michael Yugi
+Role: Team Lead, Project Setup & Layout
 
 Responsibilities:
 
@@ -41,7 +42,8 @@ Deliverables:
 - `Sidebar.jsx`
 - Project structure and repository organization
 
-### Member 2 — Posts & Props
+### Member 2 — Gitau0076-cpu
+Role: Posts & Props
 
 Responsibilities:
 
@@ -57,7 +59,8 @@ Deliverables:
 - `PostList` that renders multiple posts
 - Props-driven rendering
 
-### Member 3 — User Components & Post Creation
+### Member 3 — Hellen Wamucii Njue
+Role: User Components & Post Creation
 
 Responsibilities:
 
@@ -73,7 +76,8 @@ Deliverables:
 - Create post form
 - Controlled form logic
 
-### Member 4 — State Management, Shared Components & Testing
+### Member 4 — Stephen-Dev254
+Role: State Management, Shared Components & Testing
 
 Responsibilities:
 
@@ -114,10 +118,10 @@ Deliverables:
 
 Example branch names:
 
-- `member1/layout-components`
-- `member2/post-components`
-- `member3/user-and-create-post`
-- `member4/state-and-testing`
+- `michael-yugi/layout-components`
+- `gitau0076-cpu/post-components`
+- `hellenwamuciinjue/user-and-create-post`
+- `stephen-dev254/state-and-testing`
 
 Important rules:
 
@@ -153,10 +157,10 @@ frontend/
 │   │   ├── posts.js
 │   │   └── posts.test.js
 │   ├── exercises/
-│   │   ├── member1/
-│   │   ├── member2/
-│   │   ├── member3/
-│   │   └── member4/
+│   │   ├── michael-yugi/
+│   │   ├── gitau0076-cpu/
+│   │   ├── HellenWamuciiNjue/
+│   │   └── Stephen-Dev254/
 │   ├── App.jsx
 │   ├── App.css
 │   ├── index.css
