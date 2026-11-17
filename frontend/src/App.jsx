@@ -1,122 +1,66 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import Header from './components/Layout/Header'
+import Footer from './components/Layout/Footer'
+import Sidebar from './components/Layout/Sidebar'
+import Card from './components/shared/Card'
+import Button from './components/shared/Button'
+import { searchPosts, sortNewestFirst } from './utils/posts'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [posts, setPosts] = useState([
+    { id: 1, title: "First Post", excerpt: "Welcome to CommunityHub", author: "Amina Otieno", date: "Jan 15, 2026", likes: 0 },
+    { id: 2, title: "Second Post", excerpt: "Learn React with us", author: "Brian Kamau", date: "Jan 10, 2026", likes: 0 },
+  ])
+  const [search, setSearch] = useState('')
+  const [title, setTitle] = useState('')
+  const [content, setContent] = useState('')
+
+  const handleLike = (id) => {
+    setPosts(posts.map(p => p.id === id ? { ...p, likes: p.likes + 1 } : p))
+  }
+  const handleDelete = (id) => {
+    setPosts(posts.filter(p => p.id !== id))
+  }
+  const handleAddPost = (e) => {
+    e.preventDefault()
+    if (!title.trim()) return
+    const newPost = { id: Date.now(), title: title, excerpt: content || "New post", author: "Stephen-Dev254", date: new Date().toDateString(), likes: 0 }
+    setPosts([newPost, ...posts])
+    setTitle('')
+    setContent('')
+  }
+
+  const visiblePosts = sortNewestFirst(searchPosts(posts, search))
+  const totalLikes = posts.reduce((sum, p) => sum + p.likes, 0)
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+    <div className="app">
+      <Header />
+      <div style={{ display: 'flex', gap: '20px', padding: '20px' }}>
+        <Sidebar />
+        <main style={{ flex: 1 }}>
+          <p>{posts.length} posts | {totalLikes} total likes</p>
+          <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search posts by title or author..." style={{ width: '100%', padding: '8px', marginBottom: '16px' }} />
+          <Card title="Create Post">
+            <form onSubmit={handleAddPost}>
+              <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Post title" style={{ width: '100%', padding: '8px', marginBottom: '8px' }} />
+              <textarea value={content} onChange={(e) => setContent(e.target.value)} placeholder="Post content" style={{ width: '100%', padding: '8px', marginBottom: '8px' }} />
+              <Button text="Add Post" variant="primary" />
+            </form>
+          </Card>
+          {visiblePosts.length === 0 ? <p>No posts found.</p> : visiblePosts.map(post => (
+            <Card key={post.id} title={post.title}>
+              <p>{post.excerpt}</p>
+              <p>By {post.author} | {post.date} | ❤️ {post.likes}</p>
+              <Button text={`Like ❤️ ${post.likes}`} onClick={() => handleLike(post.id)} />
+              <Button text="Delete" variant="danger" onClick={() => handleDelete(post.id)} />
+            </Card>
+          ))}
+        </main>
+      </div>
+      <Footer />
+    </div>
   )
 }
-
 export default App
