@@ -31,21 +31,15 @@
 11. Completing Daily Challenge Day 5 – PageLayout Component.
 
 ### Florence Gitau
--
-- ## Florence Nyanjihia Gitau (@gitau0076-cpu)
 **Role:** Team Lead & Member 2 — Posts & Props (`PostCard.jsx`, `PostList.jsx`)
-
-### Week 8 Contributions
 * **PRs Opened & Merged:**
-  * Setup Vite React Scaffold:https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/
   * Task 15.2(PostCard):  https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/6
   * Task 15.3 (Props): https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/8
   * Task 16.2 (Events): https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/5
   * Task Day 3 Challenge:https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/7
 * **PRs Reviewed:**
   * Teammate PR Title: https://github.com
-* **Issues Closed:**
-  * MVP Feature — Posts & Props: https://github.com
+
 
 
 ### Hellen Wamucii Njue
