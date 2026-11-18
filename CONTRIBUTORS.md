@@ -24,7 +24,7 @@
 8. Completing Daily Challenge Day 5 – PageLayout Component.
 
 ### Florence Gitau
-**Role:**Member 2 — Posts & Props (`PostCard.jsx`, `PostList.jsx`)
+**Role:** Member 2 — Posts & Props (`PostCard.jsx`, `PostList.jsx`)
 1. Created the PostCard.jsx and PostList.jsx components inside frontend/src/components/Post/ for the Posts and Props module.
 2. Implemented dynamic post rendering in PostCard.jsx to display the title, excerpt, author, date, and likes using props.
 3. Built list rendering in PostList.jsx using .map() with unique keys and an empty-state message when no posts are available.
