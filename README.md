@@ -36,7 +36,7 @@ This team has confirmed a four-member allocation. The course kickoff text says t
 - Daily challenge: Day 5 — PageLayout component.
 - **Deliverable:** working project foundation and layout components.
 
-### Member 2 — Gitau0076-cpu: Posts & Props
+### Member 2 — gitau0076-cpu: Posts & Props
 
 - Create:
   - `src/components/Post/PostCard.jsx`
