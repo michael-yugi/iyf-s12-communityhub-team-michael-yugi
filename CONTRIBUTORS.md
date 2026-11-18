@@ -24,23 +24,16 @@
 8. Completing Daily Challenge Day 5 – PageLayout Component.
 
 ### Florence Gitau
-**Role:** Team Lead & Member 2 — Posts & Props (`PostCard.jsx`, `PostList.jsx`)
-* **PRs Opened & Merged:**
-  * Task 15.2(PostCard):  https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/6
-  * Task 15.3 (Props): https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/8
-  * Task 16.2 (Events): https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/5
-  * Task Day 3 Challenge:https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/7
-  * Contributors.md:
+**Role:**Member 2 — Posts & Props (`PostCard.jsx`, `PostList.jsx`)
+1. Created the PostCard.jsx and PostList.jsx components inside frontend/src/components/Post/ for the Posts and Props module.
+2. Implemented dynamic post rendering in PostCard.jsx to display the title, excerpt, author, date, and likes using props.
+3. Built list rendering in PostList.jsx using .map() with unique keys and an empty-state message when no posts are available.
+4. Added interactive post event handling patterns for user engagement.
+5. Created personal React practice components inside frontend/src/exercises/gitau0076-cpu/.
+6. Completed Task 15.2 (PostCard), Task 15.3 (passing props, dynamic PostCard, and rendering lists), and Task 16.2 (event handler patterns).
+7. Completed Daily Challenge Day 3 – List with Keys. 
 * **PRs Reviewed:**
   * Teammate PR : https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/11
-
-
-
-### Hellen Wamucii Njue
--
--
--
-
 ### Hellen Wamucii Njue
 **Work completed / responsibilities:**
 1. Created a reusable `UserCard` component to display user profile information, with fallback initials when no avatar is supplied.
