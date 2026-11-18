@@ -6,7 +6,7 @@
 | Member Name | GitHub Profile Handle | Project Assignment Role | Core Contributions |
 | :--- | :--- | :--- | :--- |
 |  Michael Yugi | [@michael-yugi](https://github.com/michael-yugi) | Team Lead / Engineer | Setup configuration tracking, Multi-branch scoping, project setup and layout compilation |
-| Florence Gitau | [@gitau0076-cpu](https://github.com/gitau0076-cpu) | Team Member / Engineer |  |
+| Florence Gitau | [@gitau0076-cpu](https://github.com/gitau0076-cpu) | Team Member / Engineer | Cloned repository,Posts display module (PostCard.jsx, PostList.jsx), dynamic props rendering, empty-state handling, list rendering with unique keys, and post interaction events
 | Hellen Wamucii Njue |  [@HellenWamuciiNjue](https://github.com/HellenWamuciiNjue) | Team member/ Engineer |  |
 | Stephen Githaiga Muriu | [@stephen-Dev254](stephengithaigamuriu@gmail.com) | Team Member / Engineer |  |
 
@@ -32,8 +32,21 @@
 
 ### Florence Gitau
 -
-- 
-- 
+- ## Florence Nyanjihia Gitau (@gitau0076-cpu)
+**Role:** Team Lead & Member 2 — Posts & Props (`PostCard.jsx`, `PostList.jsx`)
+
+### Week 8 Contributions
+* **PRs Opened & Merged:**
+  * Setup Vite React Scaffold:https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/
+  * Task 15.2(PostCard):  https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/6
+  * Task 15.3 (Props): https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/8
+  * Task 16.2 (Events): https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/5
+  * Task Day 3 Challenge:https://github.com/michael-yugi/iyf-s12-communityhub-team-michael-yugi/pull/7
+* **PRs Reviewed:**
+  * Teammate PR Title: https://github.com
+* **Issues Closed:**
+  * MVP Feature — Posts & Props: https://github.com
+
 
 ### Hellen Wamucii Njue
 -
