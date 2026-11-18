@@ -8,7 +8,7 @@
 |  Michael Yugi | [@michael-yugi](https://github.com/michael-yugi) | Team Lead / Engineer | Setup configuration tracking, Multi-branch scoping, project setup and layout compilation |
 | Florence Gitau | [@gitau0076-cpu](https://github.com/gitau0076-cpu) | Team Member / Engineer | Cloned repository,Posts display module (PostCard.jsx, PostList.jsx), dynamic props rendering, empty-state handling, list rendering with unique keys, and post interaction events
 | Hellen Wamucii Njue |  [@HellenWamuciiNjue](https://github.com/HellenWamuciiNjue) | Team member/ Engineer |  |
-| Stephen Githaiga Muriu | [@stephen-Dev254](stephengithaigamuriu@gmail.com) | Shared components (Button/Input/Card), App.jsx state (posts, search, add/like/delete, totalLikes), posts utils + 5 Vitest tests, Exercises Task161-164|  |
+| Stephen Githaiga Muriu | [@stephen-Dev254](stephengithaigamuriu@gmail.com) | Team member/ Engineer | Shared components (Button/Input/Card), App.jsx state (posts, search, add/like/delete, totalLikes), posts utils + 5 Vitest tests, Exercises Task161-164 |
 
 
 ## Structural Breakdown Log
