@@ -43,8 +43,7 @@
 5. Practiced managing multiple state variables and building controlled forms with React state.
 6. Created a greeting component with default props and a card component with selectable variants for the daily challenges.
 
-### Stephen Muriu
--### Stephen Githaiga Muriu
+### Stephen Githaiga Muriu
 
 **Work completed / responsibilities:**
 1. Created shared components:
@@ -64,4 +63,3 @@
    - `Task163.jsx` - TodoList (arrays in state)
    - `Task164.jsx` - Stats, PostList, PostCard with lifting state up
 6. Verified: `npm test` - 5 passed, `npm run build` - built in 170ms.
--
