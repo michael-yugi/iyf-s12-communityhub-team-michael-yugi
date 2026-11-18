@@ -51,5 +51,24 @@
 6. Created a greeting component with default props and a card component with selectable variants for the daily challenges.
 
 ### Stephen Muriu
--
+-### Stephen Githaiga Muriu
+
+**Work completed / responsibilities:**
+1. Created shared components:
+   - `Button.jsx` - variant, size, loading, disabled, children
+   - `Input.jsx` - label, name, value, onChange, type, placeholder
+   - `Card.jsx` - variant, title, children
+2. Implemented `App.jsx` with lifted state: posts array, search, add post, like, delete, totalLikes using `useState`.
+3. Created `src/utils/posts.js`:
+   - `sortNewestFirst(posts)`
+   - `searchPosts(posts, query)` - searches by title and author
+   - `formatPostDate(date)`
+4. Created `src/utils/posts.test.js` - 5 Vitest tests passing.
+5. Completed exercises in `frontend/src/exercises/Stephen-Dev254/`:
+   - `Intro.jsx`
+   - `Task161.jsx` - Counter, Toggle, UserForm
+   - `Task162.jsx` - EventExamples, ContactForm
+   - `Task163.jsx` - TodoList (arrays in state)
+   - `Task164.jsx` - Stats, PostList, PostCard with lifting state up
+6. Verified: `npm test` - 5 passed, `npm run build` - built in 170ms.
 -
