@@ -4,8 +4,6 @@
 
 Divide the React lessons, exercises, daily challenges, and CommunityHub frontend work so every team member owns meaningful work, contributes through GitHub, and practices the React fundamentals.
 
-This team has confirmed a four-member allocation. The course kickoff text says teams should have 2–3 people, so confirm that the four-member arrangement is accepted by the instructor.
-
 ## Team Allocation at a Glance
 
 | Member | GitHub username | Main responsibility | Primary deliverable |
