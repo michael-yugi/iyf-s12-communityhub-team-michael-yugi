@@ -67,4 +67,4 @@
 - GitHub: Stephen-Dev254
 - Tasks: Styling, A11y Audit, Protected Route, Full Profile (Posts + Todos)
 - Files: frontend/src/exercises/Stephen-Dev254/ + frontend/src/pages/Profile.jsx, Login.jsx
-- Lighthouse Accessibility: __ / 100 (put your real score from Step 1)
+- Lighthouse Accessibility: 96 / 100 
