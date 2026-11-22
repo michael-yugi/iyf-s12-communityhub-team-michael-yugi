@@ -63,3 +63,8 @@
    - `Task163.jsx` - TodoList (arrays in state)
    - `Task164.jsx` - Stats, PostList, PostCard with lifting state up
 6. Verified: `npm test` - 5 passed, `npm run build` - built in 170ms.
+### Stephen Muriu - Member 4 - Week 9
+- GitHub: Stephen-Dev254
+- Tasks: Styling, A11y Audit, Protected Route, Full Profile (Posts + Todos)
+- Files: frontend/src/exercises/Stephen-Dev254/ + frontend/src/pages/Profile.jsx, Login.jsx
+- Lighthouse Accessibility: __ / 100 (put your real score from Step 1)
