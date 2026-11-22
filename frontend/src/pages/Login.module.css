@@ -1,0 +1,15 @@
+.card { color: #111 !important; }
+.card h1, .card p, .card label { color: #111 !important; }
+.group input { background: #fff !important; color: #111 !important; }
+
+
+
+.page { min-height: 100vh; display: flex; justify-content: center; align-items: center; background: #f4f6f8; padding: 1rem; }
+.card { background: #fff; width: 100%; max-width: 400px; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+.group { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; }
+.group label { font-weight: 600; }
+.group input { padding: 0.75rem; border: 2px solid #ccc; border-radius: 8px; font-size: 1rem; }
+.group input:focus { outline: 3px solid #1a73e8; outline-offset: 2px; }
+.btn { background: #1a73e8; color: #fff; border: none; padding: 0.8rem; border-radius: 8px; width: 100%; font-weight: 600; cursor: pointer; }
+.btn:focus { outline: 3px solid #000; outline-offset: 2px; }
+.error { background: #fdecea; color: #b71c1c; padding: 0.75rem; border-radius: 8px; }
